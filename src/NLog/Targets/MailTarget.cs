@@ -31,6 +31,8 @@
 // THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
+using System.Threading;
+
 #if !NET_CF && !SILVERLIGHT
 
 namespace NLog.Targets
@@ -234,6 +236,8 @@ namespace NLog.Targets
 
         private void ProcessSingleMailMessage(List<AsyncLogEventInfo> events)
         {
+            //Thread.Sleep(5000);
+
             try
             {
                 LogEventInfo firstEvent = events[0].LogEvent;

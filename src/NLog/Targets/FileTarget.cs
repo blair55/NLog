@@ -722,6 +722,8 @@ namespace NLog.Targets
         /// </remarks>
         protected override void Write(AsyncLogEventInfo[] logEvents)
         {
+            Thread.Sleep(5000);
+
             var buckets = logEvents.BucketSort(c => this.FileName.Render(c.LogEvent));
             using (var ms = new MemoryStream())
             {
@@ -803,6 +805,7 @@ namespace NLog.Targets
 
         private void FlushCurrentFileWrites(string currentFileName, LogEventInfo firstLogEvent, MemoryStream ms, List<AsyncContinuation> pendingContinuations)
         {
+
             Exception lastException = null;
 
             try

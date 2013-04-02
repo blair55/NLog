@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A2DA21
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = NLog.netfx40.vsmdi
@@ -86,6 +88,16 @@ Global
 		{A961A1F9-1024-4446-BF9E-A923137340B8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A961A1F9-1024-4446-BF9E-A923137340B8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A961A1F9-1024-4446-BF9E-A923137340B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8CDA4C3F-64A5-4DCD-B751-C1F25F0D8F1E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
